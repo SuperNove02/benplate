@@ -18,6 +18,7 @@
 }
 
 #let comment(body, color: blue.darken(25%), initials: "") = {
+  math.attach(tl: initials)[]
   inline-note(stroke: blue.darken(25%), par-break: false)[
     #body
   ]
